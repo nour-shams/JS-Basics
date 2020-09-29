@@ -1,2 +1,2 @@
-var name= nour;
+var name= "nour";
 alert ("Hey, " + name + "!");
