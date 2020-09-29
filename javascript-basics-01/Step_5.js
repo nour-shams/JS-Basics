@@ -1,7 +1,10 @@
-var num1, num2, product=0;
-name=prompt("Enter first number:");
-surname=prompt("Enter second number");
+var num1, num2, product=1;
+num1=prompt("Enter first number:");
+num2=prompt("Enter second number");
 
-product=num1*num2;
+
+
+product=parseInt(num1)*parseInt(num2);
+
 
 window.alert("Product: " + product);
