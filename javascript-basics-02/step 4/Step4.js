@@ -3,8 +3,5 @@ function yndialog(){
     if (answer) {
         document.getElementById("myForm").reset();
     }
-    else{
-        document.getElementById("myForm").submit();
-    }
    
 }
