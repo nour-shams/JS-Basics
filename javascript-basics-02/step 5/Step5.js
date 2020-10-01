@@ -16,7 +16,9 @@ function toggle(){
         image_element.src="images/image1_2.jpg";
  
     }
-    
+    else{
+        image_element2.src="images/image1.jpg";
+    }
 
     if((image_element2.src).match("image2")){
         image_element2.src="images/image2_2.jpg";
